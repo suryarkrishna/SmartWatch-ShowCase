@@ -1,0 +1,156 @@
+*{
+    font-family: 'Source Sans Pro' ;
+}
+
+
+
+#logo-wrapper {
+    background-color: #232f3e;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+}
+#logo-wrapper img {
+    align-self: center;
+    mix-blend-mode: multiply ;
+    object-fit: contain;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+}
+#img-wrapper {
+    width: 50%;
+}
+
+#heading {
+    font-size: xx-large;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+#img-wrapper img{
+    width: 100%;
+    color: rgb(180, 180, 180);
+}
+#content {
+    width: 50%;
+
+}
+#desc {
+    width: 90%;
+    text-align: justify;
+    color: rgb(121, 121, 121);
+}
+#blue-color {
+    background-color: #565681;
+}
+#purple-color {
+    background-color: #8a5362;
+
+}
+#red-color {
+    background-color: #ca3d22;
+
+}
+#black-color {
+    background-color: #23211f;
+
+}
+#pink-color {
+    background-color: #e9c7be;
+    
+}
+
+.color-btn {
+    width: 40px;
+    height: 30px;
+    border-radius: 15%;
+}
+#color-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 20px;
+
+}
+.side-head {
+    font-family: 'Source Sans Pro';
+    font-size: larger;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#feature-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    font-family: 'Montserrat ';
+
+}
+.feature-btn {
+    background-color: #c4c3c2;
+    text-align: center;
+    height: 30px;
+    width: max-content;
+    box-shadow: none;
+    border: none;
+    border-radius: 5%;
+
+}
+
+#buy-btn {
+    background-color: #ff9900;
+    height: 40px;
+    width: 90px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5%;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#data-container {
+    position:absolute;
+    left: 19.5%;
+    top: 30%;
+}
+
+#curr-time {
+    color: white;
+    font-size: xx-large;
+
+}
+
+#heart-data {
+display: none;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 10px;
+} 
+
+#heart-data img {
+animation: moveHeart 1s infinite ease-in-out;
+    transition: transform 0.2s;
+    width: 30px;
+    height: 30px;
+
+}
+#heart-data div {
+    color: white;
+}
+
+@keyframes moveHeart {
+    0%, 100% {
+        transform: scale3d(1,1,1);
+      }
+      50% {
+        transform: scale3d(1,1.2,1.2);
+      }
+}
+
+
